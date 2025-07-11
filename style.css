@@ -160,3 +160,63 @@ nav li a{
 .review{
     margin-top: 135px;
 }
+
+/* push 3 */
+.new-header2
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 42px;
+    font-weight:bold ;
+    
+}
+
+
+.box {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+ .card {
+    background: #fff;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+    text-align: left;
+    }
+    
+ .title{
+    font-size: 25px;
+    font-weight:bold ;
+    margin-bottom: 8px;
+ }   
+
+
+.icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+    gap: 4px; 
+}
+
+.icon img {
+    width: 20px; 
+    height: auto;
+}
+
+.review-name{
+    color: #757575;
+}
+.date{
+    color: #B3B3B3;
+}
+
+.avatar{
+    margin-top: 24px;
+    border-radius: 50%;
+}
