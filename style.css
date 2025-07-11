@@ -84,7 +84,79 @@ nav li a{
 }
 
 
+/* Action - section er style */
+.action{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.action-container{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    gap: 220px;
+}
+.action-container div{
+    max-width: 517px;
+    margin: 63px;    
+}
+.action-img{
+    width: 503px;
+}
 
 
+.action-container div h2{
+    color: rgba(37, 36, 50, 1);
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.action-container div p{
+    color: #252432;
+    margin: 25px 0;
+    line-height: 30px;
+    font-size: 24px;
+}
 
+.action-container img{
+    border-radius: 30px;
+}
 
+/* Joined Thousands of Productive Users
+    er nicher Tuku */
+.new{
+    max-width: 1140px;
+    margin: auto;
+    background-color: #8a86ff41;
+    border-radius: 20px;
+}
+.new-container{
+    padding: 40px 80px;
+}
+.new h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.new-items{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-item h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  
+}
+
+.new-item p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #737380;
+}
+
+.review{
+    margin-top: 135px;
+}
