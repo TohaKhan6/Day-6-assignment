@@ -220,3 +220,83 @@ nav li a{
     margin-top: 24px;
     border-radius: 50%;
 }
+
+
+/* Focus Section */
+.focus-box {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.image-big {
+    background-image: url('../Assets/wc-big.png');
+    height: 365px;
+    max-width: 840px;
+    background-size: cover;
+    padding-top: 50px;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.focus-sub {
+    color: #000000;
+    opacity: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.focus-heading {
+    color: #000000;
+}
+
+.btn-main {
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Touch Section */
+.section-touch {
+    margin: 50px auto;
+    max-width: 1140px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.touch-left {
+    text-align: left;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.touch-right {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+#email, #name, #textarea {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.label-email, .label-name, .label-msg {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.btn-touch {
+    padding: 12px 32px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 270px;
+}
