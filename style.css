@@ -300,3 +300,42 @@ nav li a{
     border-radius: 5px;
     width: 270px;
 }
+
+/* Foter Section */
+.foter-main {
+    margin: 50px auto;
+    max-width: 1140px;
+    height: 250px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.foter-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.foter-right a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.brand-logo {
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: "Inter", sans-serif; ;
+}
+
+.foter-text {
+    color: #8987A1;
+    font-size: 13px;
+}
+
+
+
+
+
